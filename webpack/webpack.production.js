@@ -20,6 +20,7 @@ const production = {
       },
     }),
     new HtmlWebpackPlugin({
+      filename: 'signup.html',
       template: 'signup.html',
       minify: {
         removeComments: true,
@@ -32,6 +33,7 @@ const production = {
       },
     }),
     new HtmlWebpackPlugin({
+      filename: 'recovery-password.html',
       template: 'recovery-password.html',
       minify: {
         removeComments: true,
