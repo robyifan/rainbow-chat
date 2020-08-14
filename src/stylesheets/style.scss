@@ -1,0 +1,26 @@
+@import '~normalize.css/normalize.css';
+@import './base';
+@import './media';
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+$purple: #6f74f7;
+
+// Bootstrap Variables
+
+// Font Family Base
+$font-family-sans-serif: 'Lato', sans-serif;
+.font-abril-fatface {
+  font-family: 'Abril Fatface', cursive;
+}
+// Input
+$input-border-color: $purple;
+$input-border-width: 3px;
+$input-border-radius: 4px;
+// Colors
+$theme-colors: (
+  'primary': $purple,
+  'info': #e5e5e5,
+);
+
+@import 'node_modules/bootstrap/scss/bootstrap';
